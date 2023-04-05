@@ -1,0 +1,126 @@
+{
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "tabnine.experimentalAutoImports": true,
+    "files.autoSave": "afterDelay",
+    "git.enableCommitSigning": true,
+    "git.autofetch": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "highlight.regexes": {
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#ffcc00",
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#cc0000",
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#00ccff",
+                    "backgroundColor": "#00ccff",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#00ccff",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#cc00cc",
+                    "backgroundColor": "#cc00cc",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#cc00cc",
+                    "color": "#1f1f1f"
+                }
+            ]
+        }
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.mac": "/Users/rajatsinha/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+        "vscode-kubernetes.kubectl-path.mac": "/Users/rajatsinha/.vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path.mac": "/Users/rajatsinha/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+    },
+    "redhat.telemetry.enabled": true,
+    "git.confirmSync": false,
+    "editor.minimap.enabled": false,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "push:command"
+    ],
+    "editor.cursorSmoothCaretAnimation": "on",
+    "quokka.compactMessageOutput": true,
+    "quokka.automaticRestart": true,
+    "workbench.editorAssociations": {
+        "*.bson": "default"
+    },
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "emmet.optimizeStylesheetParsing": false,
+    "emmet.includeLanguages": {
+        "\"javascript\"": "\"javascriptreact\"",
+        "javascriptreact": "javascript"
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "git.openRepositoryInParentFolders": "never",
+    "settingsSync.ignoredSettings": [
+        "liveshare.openSharedServers"
+    ],
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false
+}
